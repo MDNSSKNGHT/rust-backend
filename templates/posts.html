@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+	    <meta charset="UTF-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <title>My pretty blog</title>
+
+		<!-- Custom styles for this template -->
+		<link href="/static/css/navbar-top-fixed.css" rel="stylesheet">
+	</head>
+
+	<body>
+		<script src="https://getbootstrap.com/docs/5.0/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+		<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="/">Home</a>
+			</div>
+		</nav>
+		<main class="container">
+			<div class="bg-light p-5 rounded">
+				<h1>{{ post.title }}</h1>
+				<p class="lead">{{ post.body }}</p>
+			</div>
+		</main>
+	</body>
+	<!-- <style> -->
+	<!-- 	.bd-placeholder-img { -->
+	<!-- 	    font-size: 1.125rem; -->
+	<!-- 	    text-anchor: middle; -->
+	<!-- 	    -webkit-user-select: none; -->
+	<!-- 	    -moz-user-select: none; -->
+	<!-- 	    user-select: none; -->
+	<!-- 	} -->
+	<!---->
+	<!-- 	@media (min-width: 768px) { -->
+	<!-- 	    .bd-placeholder-img-lg { -->
+	<!-- 	        font-size: 3.5rem; -->
+	<!-- 	    } -->
+	<!-- 	} -->
+	<!---->
+	<!-- 	body { -->
+	<!-- 	  min-height: 75rem; -->
+	<!-- 	  padding-top: 4.5rem; -->
+	<!-- 	  display: flex; -->
+	<!-- 	  align-items: center; -->
+	<!-- 	  padding-top: 40px; -->
+	<!-- 	  padding-bottom: 40px; -->
+	<!-- 	  background-color: #f5f5f5; -->
+	<!-- 	} -->
+	<!---->
+	<!-- 	main > .container { -->
+	<!-- 	  padding: 60px 15px 0; -->
+	<!-- 	} -->
+	<!---->
+	<!-- 	html, -->
+	<!-- 	body { -->
+	<!-- 	  height: 100%; -->
+	<!-- 	} -->
+	<!-- </style> -->
+</html>
